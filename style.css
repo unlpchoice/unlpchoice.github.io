@@ -140,8 +140,19 @@ body {
 }
 .quizBox
 {
-	width:90%;
-	margin: auto;
+
+    height: 400px;
+    width: 950px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px #000000, 0px 0px 5px, 0px 0px 30px;
+    position: relative;
+}
+
 
 }
 
