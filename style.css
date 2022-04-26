@@ -108,7 +108,11 @@ body {
   color: #aeb2b7;
 }
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden
+}
  body{
 
 	background: #2b898e9e;
