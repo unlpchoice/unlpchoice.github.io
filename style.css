@@ -140,8 +140,7 @@ body {
 }
 .quizBox
 {
-
-    height: 400px;
+	text-align: left;
     width: 950px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -556,7 +555,7 @@ progress::-webkit-progress-value {
 
 ul{
 	list-style-type: none;
-	width: 600px;
+    padding: 0;
 	margin: auto;
 	text-align: left;
 }
@@ -579,7 +578,7 @@ label:before {
     background: #fff ;
 	    position: absolute;
     left: 7px;
-		top: calc(50% - 13px);
+		top: calc(50% - 18px);
     box-sizing: border-box;
     border-radius: 560%;
 }
