@@ -36,7 +36,7 @@ const quizdata=[
         category:2
       },
       {
-        question:"9) El hueso esternón está formado por la fusión de: ",
+        question:"El hueso esternón está formado por la fusión de: ",
         options:["A)Manubrio, cara y proceso xifoideo. ", ". B)Cabeza, cuerpo y cola", "C)Cabeza, cuerpo y proceso xifoideo. ", "D)Manubrio, cuerpo y proceso xifoideo."],
         answer:"D)Manubrio, cuerpo y proceso xifoideo.",
         category:3
@@ -60,23 +60,60 @@ const quizdata=[
         category:1
       },
       {
-        question:"12)Los limites óseos del agujero de conjunción son: ",
+        question:"Los limites óseos del agujero de conjunción son: ",
         options:["A)Borde posterior del cuerpo vertebral de dos vertebra, pedículo de la vértebra suprayasente, la articulación de las apófisis articulares de la vértebra supra e infra adyacente entre sí, y el pedículo de la vértebra infra adyacente. ", "B)Borde posterior del cuerpo vertebral de la vértebra supra adyacente, apófisis articulares de dicha vertebra, sus pedículos y la apófisis espinosa, bordeposterior del cuerpo de la vértebra infra adyacente, apófisis articulares de la misma, sus pedículos y su apófisis espinosa.", ".C)Borde posterior del cuerpo de las dos vértebras contiguas, sus pedículos y susapófisis articulares. ", "D)Borde posterior del cuerpo de las dos vértebras contiguas, sus laminas y sus apófisis espinosas respectivamente. "],
         answer:"A)Borde posterior del cuerpo vertebral de dos vertebra, pedículo de la vértebra suprayasente, la articulación de las apófisis articulares de la vértebra supra e infra adyacente entre sí, y el pedículo de la vértebra infra adyacente.",
         category:2
       },
       {
-        question:"¿Que estructura se encuentra por delante del tubérculo de Linsfranc? ",
-        options:["a) El canal anterior para la arteria subclavia.", "b) El canal posterior para la arteria subclavia ", "c) El canal anterior para la vena subclavia.", "d) El canal posterior para la vena subclavia."],
-        answer:"El canal anterior para la vena subclavia",
+        question:"¿Cuál de las consignas es verdadera?",
+        options:["La lámina cribosa se ubica en la fosa craneal media", "El tegmen timpani se ubica en la fosa craneal posterior.", "La lámina cribosa se ubica en la fosa craneal anterior.", "La lámina cribosa se ubica en la fosa craneal media",],
+        answer:"La lámina cribosa se ubica en la fosa craneal anterior.",
+        category:3
+      },
+	  {
+        question:"¿Qué estructura sale del endocraneo por el agujero condileo anterior?",
+        options:["Nervio Facial.", "Arteria maxilar interna.", "Arteria vertebral.", "Nervio Hipogloso.",],
+        answer:"Nervio Facial.",
+        category:3
+      },
+	  {
+        question:"¿Qué estructura sale del endocraneo por el agujero redondo menor?",
+        options:["Arteria meníngea media.", "Arteria Carótida interna.", "Ramo maxilar superior del nervio Trigémino.", "Nervio Patético.",],
+        answer:"Arteria meníngea media.",
         category:3
       },
       {
-        question:"T) Marque la opción correcta con respecto a los límites del agujero obturador.  ",
+        question:"¿Que estructura se encuentra por delante del tubérculo de Linsfranc?",
+        options:["El canal anterior para la arteria subclavia", "El canal posterior para la arteria subclavia", "El canal anterior para la vena subclavia.", "El canal posterior para la vena subclavia."],
+        answer:"El canal anterior para la vena subclavia",
+        category:3
+      },
+	  {
+        question:"Respecto de las suturas craneales ¿Cuál es la opción correcta?",
+        options:["El Bregma es el punto de unión de ambos huesos parietales con el frontal.", "El Bregma es el punto de unión entre los huesos parietal, frontal y esfenoides.", "El Asterion es el punto de unión entre los huesos temporal, parietal y frontal.", "El Lambda es el punto de unión entre los huesos parietales y el frontal."],
+        answer:"El Bregma es el punto de unión de ambos huesos parietales con el frontal.",
+        category:3
+      },
+	  {
+        question:"¿A qué hace referencia el termino proximal, en una estructura anatómica perteneciente a los miembros?",
+        options:["Se refiere a la parte más alejada de su raíz.", "Se refiere a la parte media de la estructura.", "Se refiere a la partemás cercana de la raíz.", "Ninguna de las anteriores."],
+        answer:"Se refiere a la partemás cercana de la raíz.",
+        category:3
+      },
+	  {
+        question:"Teniendo en cuenta la relación CEFALICO/CAUDAL, marque la opción correcta",
+			options:["La porción más cefálica del raquis es la porción torácica.", "El término Cefálico hace referencia al polo superior del cuerpo.", "El término caudal guarda relación con la parte superior del organismo.", "El extremo caudal de humero se articula con la escapula."],
+        answer:"El término Cefálico hace referencia al polo superior del cuerpo.",
+        category:3
+      },
+      {
+        question:" Marque la opción correcta con respecto a los límites del agujero obturador. ",
         options:["A)Cuerpo del isquion, rama del isquion, rama descendente del pubis, cuerpo del pubis y rama horizontal del pubis. ", "B)Cuerpo del pubis, rama del isquion, rama descendente del pubis, cuerpo del pubis y rama horizontal del pubis. ", "C)Rama del isquion, rama descendente del pubis, cuerpo del pubis y rama horizontal del pubis.", "D)Cuerpo del pubis, rama ascendente del pubis, rama descendente del pubis,cuerpo del isquion y rama ascendente del isquion."],
         answer:"Cuerpo del isquion, rama del isquion, rama descendente del pubis, cuerpo del pubis y rama horizontal del pubis.",
         category:1
       }
+	  
     ];
 /** Random shuffle questions **/
 function shuffleArray(question){
