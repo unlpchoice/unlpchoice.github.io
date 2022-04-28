@@ -391,7 +391,7 @@ function getProgressindicator(length){
 
 /*** change progress bar when next button is clicked ***/
 function changeProgressValue(){
-  $progressValue+= 5.2;
+  $progressValue+= 6.6;
   if ($progressValue >= 100) {
     
   } else {
