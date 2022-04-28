@@ -6,111 +6,99 @@ var resultList=[];
 
 const quizdata=[
       {
-        question:"¿Qué estructura sale del endocraneo por el agujero estilomastoideo?",
-        options:["A) Nervio Facial.", "B) Arteria Carótida interna.", "C) Arteria meníngea media.", "D) Nervio Hipogloso."],
-        answer:"A) Nervio Facial.",
+        question:"¿Porque articulaciones está compuesta la cintura escapular?",
+        options:["Acromioclavicular, escapulohumeral, humerocubital.", "Esternoclavicular, humerocubital, radiohumeral.", "Acromioclavicular, escapulohumeral, radiohumeral.", "Esternoclavicular, acromioclavicular, escapulohumeral."],
+        answer:"Esternoclavicular, acromioclavicular, escapulohumeral.",
+        category:1
+      },
+	  {
+        question:"¿Que tipo de articulación tenemos entre las falanges?",
+        options:["Trocoide.", "Artrodia.", "Troclear.", "Encaje reciproco."],
+        answer:"Troclear",
         category:1
       },
       {
-        question:"¿Entre que planos del espacio puede estár situado un elemento anatómico?",
-        options:["A)Plano sagital y plano frontal únicamente", "B)Plano sagital, plano frontal, y plano Axial", "C)Plano sagital y plano axial únicamente", "D)Plano sagital, plano frontal y plano anteroposterior"],
-        answer:"B)Plano sagital, plano frontal, y plano Axial",
-        category:2
-      },
-      {
-        question:"¿Dónde se encuentra la escotadura cotiloidea?",
-        options:["A)En el borde inferior de la cavidad cotiloidea. ", "B)En el borde superior de la cavidad cotiloidea.", "C)En la rama horizontal del pubis", "D)En la tuberosidad Isquiática."],
-        answer:"A)En el borde inferior de la cavidad cotiloidea.",
-        category:3
-      },
-      {
-        question:"De manera general los huesos largos presentan",
-        options:[":A) Una epífisis, una diáfisis y una metáfisis. ", "B) Dos epífisis, dos metáfisis y una diáfisis.", "C) Dos diáfisis y una epífisis.", "D) Dos epífisis y una metáfisis."],
-        answer:"B) Dos epífisis, dos metáfisis y una diáfisis.",
+        question:"En cuanto a las articulaciones móviles, indique cual posee menor cantidad de movimientos",
+        options:["Enartrosis.", "Trocleartrosis.", "Artrodias.", "Por encaje reciproco."],
+        answer:"Artrodias.",
         category:1
       },
       {
-        question:"La columna vertebral se encuentra formada por:",
-        options:["A) 7 vértebras cervicales, 12 vértebras torácicas, 5 vértebras lumbares, 5 vértebras sacras, (3-5)  vértebras coccígeas.", "B) 5 vértebras cervicales, 7 vértebras torácicas, 12 vértebras lumbares, 5 vértebras sacras, 5 vértebras coccígeas. ", "C) 6 vértebras cervicales, 10 vértebras torácicas, 5 vértebras lumbares, 5 vértebras sacras, 5 vértebras coccígeas.", ".D) 7 vértebras cervicales, 12 vértebras torácicas, 5 vértebras lumbares, 3 vértebras sacras, 2 vértebras coccígeas. "],
-        answer:"A) 7 vértebras cervicales, 12 vértebras torácicas, 5 vértebras lumbares, 5 vértebras sacras, (3-5)  vértebras coccígeas.",
-        category:2
+        question:"El cóndilo de la articulación radiocarpiana está formado por los huesos:",
+        options:["Escafoides, semilunar, trapecio y trapezoide", "Cubito y radio.", "Escafoides, semilunar y piramidal", "Escafoides, semilunar, piramidal y pisiforme."],
+        answer:"Escafoides, semilunar y piramidal",
+        category:1
       },
-      {
-        question:"El hueso esternón está formado por la fusión de: ",
-        options:["A)Manubrio, cara y proceso xifoideo. ", ". B)Cabeza, cuerpo y cola", "C)Cabeza, cuerpo y proceso xifoideo. ", "D)Manubrio, cuerpo y proceso xifoideo."],
-        answer:"D)Manubrio, cuerpo y proceso xifoideo.",
-        category:3
-      },
-      {
-        question:"Los espacios delimitados entre las costillas se denominan:",
-        options:["A- Espacios Intervertebrales", "B- Espacios Supracostales. ", "C-  Espacios Infracostales.", "D-  Espacios Intercostales"],
-        answer:"D-  Espacios Intercostales",
-        category:2
-      },
-      {
-        question:"Sobre el hueso fémur, decimos que la extremidad proximal es:",
-        options:["A)Aquella que se encuentra más alejada del eje medio del cuerpo.", "B)Aquella que se la que se une al coxal.", "C)Aquella que se encuentra en la diáfisis femoral.", "D)El fémur no presenta epífisis"],
-        answer:"B)Aquella que se la que se une al coxal.",
-        category:3
-      },
-      {
-        question:"Los espacios delimitados entre las costillas se denominan:",
-        options:["Espacios Intervertebrales.", "Espacios Supracostales. ", "Espacios Infracostales.", "Espacios Intercostales."],
-        answer:"Espacios Intercostales.",
+       {
+        question:"¿Cuál de estas articulaciones es una esquindelesis?",
+        options:["Articulación esfenovomeriana.", "Articulación témporomandibular.", "Articulación parietotemporal.", "Articulación occipitoesfenoidal."],
+        answer:"Articulación esfenovomeriana.",
         category:1
       },
       {
-        question:"Los limites óseos del agujero de conjunción son: ",
-        options:["A)Borde posterior del cuerpo vertebral de dos vertebra, pedículo de la vértebra suprayasente, la articulación de las apófisis articulares de la vértebra supra e infra adyacente entre sí, y el pedículo de la vértebra infra adyacente. ", "B)Borde posterior del cuerpo vertebral de la vértebra supra adyacente, apófisis articulares de dicha vertebra, sus pedículos y la apófisis espinosa, bordeposterior del cuerpo de la vértebra infra adyacente, apófisis articulares de la misma, sus pedículos y su apófisis espinosa.", ".C)Borde posterior del cuerpo de las dos vértebras contiguas, sus pedículos y susapófisis articulares. ", "D)Borde posterior del cuerpo de las dos vértebras contiguas, sus laminas y sus apófisis espinosas respectivamente. "],
-        answer:"A)Borde posterior del cuerpo vertebral de dos vertebra, pedículo de la vértebra suprayasente, la articulación de las apófisis articulares de la vértebra supra e infra adyacente entre sí, y el pedículo de la vértebra infra adyacente.",
-        category:2
+        question:"Los movimientos de flexoextensión se producen sobre:",
+        options:["El eje sagital.", "El plano frontal.", "El eje longitudinal.", "El plano sagital."],
+        answer:"El plano sagital.",
+        category:1
+      },
+       {
+        question:"Los movimientos que se realizan en el plano transversal alrededor del eje vertical son:",
+        options:["Circunducción.", "Abducción y aducción.", "Rotación interna y rotación externa.", "Flexión y extensión."],
+        answer:"Rotación interna y rotación externa.",
+        category:1
+      },
+       {
+        question:"¿Cómo se llaman los ligamentos que unen las láminas vertebrales entre sí?",
+        options:["Ligamento vertebral común posterior.", "Ligamentos interlaminarios.", "Ligamentos interespinales.", "Ligamentos amarillos."],
+        answer:"Ligamentos amarillos.",
+        category:1
+      },
+       {
+        question:"El ligamento de Cooper se encuentra en:",
+        options:["En la articulación del codo, anteriormente.", "En la articulación del codo, en el lateral interno.", "En la articulación del codo, en el lateral externo.", "En la articulación del codo, posteriormente."],
+        answer:"En la articulación del codo, en el lateral interno.",
+        category:1
+      },
+       {
+        question:"El ligamento epiespinoso se encuentra",
+        options:["Por delante de las láminas.", "Conectando toda la espina de una vértebra a la que se encuentra por debajo.", "Conectando únicamente la punta de una espina de una vértebra a la punta de la espina que se encuentra por debajo.", "Por detrás de las láminas."],
+        answer:"Conectando únicamente la punta de una espina de una vértebra a la punta de la espina que se encuentra por debajo.",
+        category:1
       },
       {
-        question:"¿Cuál de las consignas es verdadera?",
-        options:["La lámina cribosa se ubica en la fosa craneal media", "El tegmen timpani se ubica en la fosa craneal posterior.", "La lámina cribosa se ubica en la fosa craneal anterior.", "La lámina cribosa se ubica en la fosa craneal media",],
-        answer:"La lámina cribosa se ubica en la fosa craneal anterior.",
-        category:3
+        question:"¿Cuál de los siguientes es un ligamento extrínseco de la articulación Escapulohumeral?",
+        options:["Ligamento Coracohumeral.", "Ligamento Glenohumeral medio.", "Ligamento Glenohumeral superior.", "Ligamento Glenohumeral inferior."],
+        answer:"Ligamento Coracohumeral.",
+        category:1
+      },
+       {
+        question:"¿Cuáles son los ligamentos coracoclaviculares?",
+        options:["Trapezoide y coronoide.", "Trapezoide y coloide.", "Trapezoide y conoide.", "Trapezio y trapezoide."],
+        answer:"Trapezoide y conoide.",
+        category:1
+      },
+	   {
+        question:"El ligamento vertebral común anterior se encuentra:",
+        options:["Por delante de las láminas.", "Por delante de los cuerpos vertebrales.", "Por detrás de los cuerpo vertebrales.", "Por detrás de las láminas."],
+        answer:"Por delante de los cuerpos vertebrales.",
+        category:1
       },
 	  {
-        question:"¿Qué estructura sale del endocraneo por el agujero condileo anterior?",
-        options:["Nervio Facial.", "Arteria maxilar interna.", "Arteria vertebral.", "Nervio Hipogloso.",],
-        answer:"Nervio Facial.",
-        category:3
+        question:"El movimiento de rotación del torso está garantizado por",
+        options:["Las articulaciones de la cadera.", "La columna cervical.", "La columna lumbar.", "La columna torácica."],
+        answer:"La columna lumbar.",
+        category:1
+      },
+       {
+        question:"Las sinartrosis son:",
+        options:["Articulaciones sin movimiento, unidas por tejido fibroso o por tejido cartilaginoso.", "Articulaciones con escaso movimiento, unidas por tejido fibroso o por tejido cartilaginoso.", "Articulaciones con movimiento, unidas por tejido fibroso y por tejido cartilaginoso.", "Articulaciones con movimiento, unidas por tejido fibroso o por tejido cartilaginoso."],
+        answer:"Articulaciones sin movimiento, unidas por tejido fibroso o por tejido cartilaginoso.",
+        category:1
       },
 	  {
-        question:"¿Qué estructura sale del endocraneo por el agujero redondo menor?",
-        options:["Arteria meníngea media.", "Arteria Carótida interna.", "Ramo maxilar superior del nervio Trigémino.", "Nervio Patético.",],
-        answer:"Arteria meníngea media.",
-        category:3
-      },
-      {
-        question:"¿Que estructura se encuentra por delante del tubérculo de Linsfranc?",
-        options:["El canal anterior para la arteria subclavia", "El canal posterior para la arteria subclavia", "El canal anterior para la vena subclavia.", "El canal posterior para la vena subclavia."],
-        answer:"El canal anterior para la vena subclavia",
-        category:3
-      },
-	  {
-        question:"Respecto de las suturas craneales ¿Cuál es la opción correcta?",
-        options:["El Bregma es el punto de unión de ambos huesos parietales con el frontal.", "El Bregma es el punto de unión entre los huesos parietal, frontal y esfenoides.", "El Asterion es el punto de unión entre los huesos temporal, parietal y frontal.", "El Lambda es el punto de unión entre los huesos parietales y el frontal."],
-        answer:"El Bregma es el punto de unión de ambos huesos parietales con el frontal.",
-        category:3
-      },
-	  {
-        question:"¿A qué hace referencia el termino proximal, en una estructura anatómica perteneciente a los miembros?",
-        options:["Se refiere a la parte más alejada de su raíz.", "Se refiere a la parte media de la estructura.", "Se refiere a la partemás cercana de la raíz.", "Ninguna de las anteriores."],
-        answer:"Se refiere a la partemás cercana de la raíz.",
-        category:3
-      },
-	  {
-        question:"Teniendo en cuenta la relación CEFALICO/CAUDAL, marque la opción correcta",
-			options:["La porción más cefálica del raquis es la porción torácica.", "El término Cefálico hace referencia al polo superior del cuerpo.", "El término caudal guarda relación con la parte superior del organismo.", "El extremo caudal de humero se articula con la escapula."],
-        answer:"El término Cefálico hace referencia al polo superior del cuerpo.",
-        category:3
-      },
-      {
-        question:" Marque la opción correcta con respecto a los límites del agujero obturador. ",
-        options:["A)Cuerpo del isquion, rama del isquion, rama descendente del pubis, cuerpo del pubis y rama horizontal del pubis. ", "B)Cuerpo del pubis, rama del isquion, rama descendente del pubis, cuerpo del pubis y rama horizontal del pubis. ", "C)Rama del isquion, rama descendente del pubis, cuerpo del pubis y rama horizontal del pubis.", "D)Cuerpo del pubis, rama ascendente del pubis, rama descendente del pubis,cuerpo del isquion y rama ascendente del isquion."],
-        answer:"Cuerpo del isquion, rama del isquion, rama descendente del pubis, cuerpo del pubis y rama horizontal del pubis.",
+        question:"Una articulación Troclear puede realizar movimientos de ",
+        options:["Flexo-extensión.", "Rotación interna-externa.", "Aducción-Abducción.", "Todas son correctas."],
+        answer:"Flexo-extensión.",
         category:1
       }
 	  
