@@ -453,7 +453,6 @@ progress::-webkit-progress-value {
   -webkit-transition: .3s;
   transition: .3s;
   will-change: padding;
-  overflow: hidden;
 }
 
 .form-step {
