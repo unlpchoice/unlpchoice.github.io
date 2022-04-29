@@ -12,15 +12,13 @@ const quizdata=[
         category:1
       },
 	  {
-        question:"¿Cuál es la estructura que se ubica entre los músculos y sus tendones, con fin de evitar roces y
-desgaste de misma fricción entre ellos?",
+        question:"¿Cuál es la estructura que se ubica entre los músculos y sus tendones, con fin de evitar roces y desgaste de misma fricción entre ellos?",
         options:["Vainas sinoviales", "Aponeurosis.", "Fascias.", "Bolsa serosa."],
         answer:"  Bolsa serosa.",
         category:1
       },
       {
-        question:"Cuál es la estructura anatómica de tejido conectivo que envuelve a los músculos en particular,
-de esta manera sectorizándolo para que su contracción vaya en un sentido determinado?",
+        question:"Cuál es la estructura anatómica de tejido conectivo que envuelve a los músculos en particular, de esta manera sectorizándolo para que su contracción vaya en un sentido determinado?",
         options:["Vainas sinoviales.", "Fascias.", " Bolsa serosa.", "Aponeurosis."],
         answer:"Fascias.",
         category:1
@@ -45,31 +43,25 @@ de esta manera sectorizándolo para que su contracción vaya en un sentido deter
       },
 	  	  {
         question:"Con respecto a la Rodilla, marque la opción INCORRECTA",
-        options:["a. Con la rotación externa de la rodilla los ligamentos cruzados de
-DESENRROLLAN", "b. El ligamento cruzado posterior se dirige desde la superficie retro espinosa de la
-tibia hacia arriba, adelante y adentro para insertarse en el cóndilo interno.", "Los ligamentos cruzados son dos: uno anterior y otro posterior.", "El ligamento cruzado anterior se dirige de la superficie preespinosa de la tibia
-hacia atrás, arriba y afuera para insertarse en el cóndilo externo."],
+        options:["a. Con la rotación externa de la rodilla los ligamentos cruzados de DESENRROLLAN", "b. El ligamento cruzado posterior se dirige desde la superficie retro espinosa de la tibia hacia arriba, adelante y adentro para insertarse en el cóndilo interno.", "Los ligamentos cruzados son dos: uno anterior y otro posterior.", "El ligamento cruzado anterior se dirige de la superficie preespinosa de la tibia hacia atrás, arriba y afuera para insertarse en el cóndilo externo."],
         answer:"Con la rotación externa de la rodilla los ligamentos cruzados de DESENRROLLAN",
         category:1
       },
        {
-        question:"¿Cuál es la estructura que se ubica entre los músculos y sus tendones, con fin de evitar roces y
-desgaste de misma fricción entre ellos?",
+        question:"¿Cuál es la estructura que se ubica entre los músculos y sus tendones, con fin de evitar roces y desgaste de misma fricción entre ellos?",
         options:["Aponeurosis.", "Fascias.", "Vainas sinoviales.", "Bolsa serosa."],
         answer:"Bolsa serosa.",
         category:1
       },
        {
-        question:"¿Cuál es el elemento anatómico que forma parte del músculo, de color blanca nacarada y
-poseen cierta capacidad contráctil?",
+        question:"¿Cuál es el elemento anatómico que forma parte del músculo, de color blanca nacarada y poseen cierta capacidad contráctil?",
         options:["Vainas sinoviales", "Bolsa serosa.", "Fascias.", "Aponeurosis."],
         answer:"Aponeurosis.",
         category:1
       },
        {
         question:"Con respecto a la articulacion coxofemoral, marque la opcion INCORRECTA",
-        options:["En el trasfondo de la cavidad cotiloidea se inserta el ligamento redondo para la
-cabeza del fémur.", "Al ser una enartrosis, solo posee movimientos de flexo-extensión.", "El rodete cotiloideo sirve de contención para la cabeza del fémur.", "La escotadura isquiopubiana se encuentra cerrada por el ligamento transverso."],
+        options:["En el trasfondo de la cavidad cotiloidea se inserta el ligamento redondo para la cabeza del fémur.", "Al ser una enartrosis, solo posee movimientos de flexo-extensión.", "El rodete cotiloideo sirve de contención para la cabeza del fémur.", "La escotadura isquiopubiana se encuentra cerrada por el ligamento transverso."],
         answer:"Al ser una enartrosis, solo posee movimientos de flexo-extensión.",
         category:1
       },
@@ -100,8 +92,7 @@ cabeza del fémur.", "Al ser una enartrosis, solo posee movimientos de flexo-ext
 	  {
         question:"¿Cuáles son los huesos que articulan con el hueso grande del tarso?",
         options:["Trapecio, trapezoide, semilunar, piramidal, 3° y 4° metacarpiano.", "Trapecio, trapezoide, semilunar, piramidal, pisiforme, 2° 3° y 4° metacarpiano.", "Trapezoide, escafoides, semilunar, hueso ganchoso, 2°, 3° y 4°. Metacarpianos.", "Los cinco metacarpiano y el hueso semilunar."],
-        answer:"Trapezoide, escafoides, semilunar, hueso ganchoso, 2°, 3° y 4°.
-Metacarpianos.",
+        answer:"Trapezoide, escafoides, semilunar, hueso ganchoso, 2°, 3° y 4°. Metacarpianos.",
         category:1
       },
        {
