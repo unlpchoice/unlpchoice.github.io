@@ -121,7 +121,7 @@ Metacarpianos.",
         options:["Metatarsofalángica", "Tibioperoneoastragalina.", "Tarsometatarsiana.", "Mediotarsiana."],
         answer:"Mediotarsiana.",
         category:1
-      },
+      }
 	  
     ];
 /** Random shuffle questions **/
