@@ -14,7 +14,7 @@ const quizdata=[
 	  {
         question:"¿Cuál es la estructura que se ubica entre los músculos y sus tendones, con fin de evitar roces y desgaste de misma fricción entre ellos?",
         options:["Vainas sinoviales", "Aponeurosis.", "Fascias.", "Bolsa serosa."],
-        answer:"  Bolsa serosa.",
+        answer:"Bolsa serosa.",
         category:1
       },
       {
@@ -25,7 +25,7 @@ const quizdata=[
       },
       {
         question:"Cual de estos movimientos no ejecuta la rodilla?",
-        options:["Flexion,", " Circunduccion.", "Rotación.", " Extensión."],
+        options:["Flexion,", "Circunduccion", "Rotación", " Extensión"],
         answer:"Circunduccion.",
         category:1
       },
@@ -38,19 +38,19 @@ const quizdata=[
       {
         question:"Qué limita la retroversion del muslo?",
         options:["El cuello del femur contacta con la ceja cotiloidea", "Ligamento isquiofemoral", " Ligamento redondo", "Ligamento pubofemoral"],
-        answer:" El cuello del femur contacta con la ceja cotiloidea",
+        answer:"El cuello del femur contacta con la ceja cotiloidea",
         category:1
       },
 	  	  {
         question:"Con respecto a la Rodilla, marque la opción INCORRECTA",
-        options:["a. Con la rotación externa de la rodilla los ligamentos cruzados de DESENRROLLAN", "b. El ligamento cruzado posterior se dirige desde la superficie retro espinosa de la tibia hacia arriba, adelante y adentro para insertarse en el cóndilo interno.", "Los ligamentos cruzados son dos: uno anterior y otro posterior.", "El ligamento cruzado anterior se dirige de la superficie preespinosa de la tibia hacia atrás, arriba y afuera para insertarse en el cóndilo externo."],
+        options:["Con la rotación externa de la rodilla los ligamentos cruzados de DESENRROLLAN", "El ligamento cruzado posterior se dirige desde la superficie retro espinosa de la tibia hacia arriba, adelante y adentro para insertarse en el cóndilo interno.", "Los ligamentos cruzados son dos: uno anterior y otro posterior.", "El ligamento cruzado anterior se dirige de la superficie preespinosa de la tibia hacia atrás, arriba y afuera para insertarse en el cóndilo externo."],
         answer:"Con la rotación externa de la rodilla los ligamentos cruzados de DESENRROLLAN",
         category:1
       },
        {
         question:"¿Cuál es la estructura que se ubica entre los músculos y sus tendones, con fin de evitar roces y desgaste de misma fricción entre ellos?",
-        options:["Aponeurosis.", "Fascias.", "Vainas sinoviales.", "Bolsa serosa."],
-        answer:"Bolsa serosa.",
+        options:["Aponeurosis", "Fascias", "Vainas sinoviales", "Bolsa serosa"],
+        answer:"Bolsa serosa",
         category:1
       },
        {
@@ -97,7 +97,7 @@ const quizdata=[
       },
        {
         question:"¿Qué tipo de articulación es la articulación sacroilíaca?",
-        options:["Sinartrosis.", "Troclear.", "Artrodia.", "Diartroanfiartrosis."],
+        options:["Sinartrosis.", "Troclear.", "Artrodia.", "Diartroanfiartrosis"],
         answer:"Diartroanfiartrosis",
         category:1
       },
