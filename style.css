@@ -117,7 +117,7 @@ html, body {
 
 	background: #2b898e9e;
 	font-family: 'Roboto Slab', serif;    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-	font-size: 14px;
+	font-size: 10px;
 	color:black;
  }
 
@@ -144,6 +144,7 @@ html, body {
 }
 .quizBox
 {
+	font-size: 8px;
 	text-align: left;
     width: 950px;
     background-repeat: no-repeat;
@@ -558,7 +559,7 @@ li {
 	height:30px;
 }
 label{
-	font-size: medium;
+		font-size: 14px;
 
 	color: #000;
 }
