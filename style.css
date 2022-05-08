@@ -950,7 +950,21 @@ input[type="radio"]:checked ~ .bullet .line.seven{
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-//CSS
+  body{
+    background: #2b898e9e;
+    font-family: 'Roboto Slab', serif;    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 30px;
+    color:black;
+   }
+.quizbox{ font-size:30px; 
+}
+.quizArea{
+  width: 78.125em;
+ margin:  auto;
+ padding:0.1875em;
+ position: relative;
+ text-align: center;
+ }
 
 }
 
@@ -961,7 +975,21 @@ input[type="radio"]:checked ~ .bullet .line.seven{
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
-//CSS
+  body{
+    background: #2b898e9e;
+    font-family: 'Roboto Slab', serif;    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 30px;
+    color:black;
+   }
+.quizbox{ font-size:30px; 
+}
+.quizArea{
+  width: 78.125em;
+ margin:  auto;
+ padding:0.1875em;
+ position: relative;
+ text-align: center;
+ }
 
 }
 
@@ -972,7 +1000,21 @@ input[type="radio"]:checked ~ .bullet .line.seven{
 
 @media (min-width: 481px) and (max-width: 767px) {
 
-//CSS
+  body{
+    background: #2b898e9e;
+    font-family: 'Roboto Slab', serif;    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 30px;
+    color:black;
+   }
+.quizbox{ font-size:30px; 
+}
+.quizArea{
+  width: 78.125em;
+ margin:  auto;
+ padding:0.1875em;
+ position: relative;
+ text-align: center;
+ }
 
 }
 
@@ -985,8 +1027,11 @@ input[type="radio"]:checked ~ .bullet .line.seven{
    }
 .quizbox{ font-size:30px; 
 }
-  .quizArea{ 
-    height: 5900.25em;
-    font-size: 1.875em;
-  }
+.quizArea{
+  width: 78.125em;
+ margin:  auto;
+ padding:0.1875em;
+ position: relative;
+ text-align: center;
+ }
 }
