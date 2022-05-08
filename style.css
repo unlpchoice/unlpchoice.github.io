@@ -980,7 +980,7 @@ input[type="radio"]:checked ~ .bullet .line.seven{
  text-align: center;
  }
  label{
-  font-size:15px;
+  font-size:24px;
 color: #000;
 }
 
@@ -1026,7 +1026,7 @@ color: #000;
 }
 label{
 
-font-size:15px;
+  font-size:24px;
 color: #000;
 }
 /* 
@@ -1066,7 +1066,7 @@ color: #000;
  text-align: center;
  }
  label{
-  font-size:15px;
+  font-size:24px;
 color: #000;
 }
 }
@@ -1102,7 +1102,7 @@ color: #000;
  text-align: center;
  }
  label{
-  font-size:15px;
+  font-size:24px;
 color: #000;
 }
 }
