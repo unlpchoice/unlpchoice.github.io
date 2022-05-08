@@ -980,8 +980,7 @@ input[type="radio"]:checked ~ .bullet .line.seven{
  text-align: center;
  }
  label{
-  font-size: 20px;
-
+  font-size:15px;
 color: #000;
 }
 
@@ -1002,7 +1001,7 @@ color: #000;
    }
    .quizBox
    {
-     font-size: 9px;
+     font-size: 15px;
      text-align: left;
        width: auto;
        background-repeat: no-repeat;
@@ -1026,8 +1025,8 @@ color: #000;
 
 }
 label{
-  font-size: 20px;
 
+font-size:15px;
 color: #000;
 }
 /* 
@@ -1067,8 +1066,7 @@ color: #000;
  text-align: center;
  }
  label{
-  font-size: 20px;
-
+  font-size:15px;
 color: #000;
 }
 }
@@ -1104,8 +1102,7 @@ color: #000;
  text-align: center;
  }
  label{
-  font-size: 20px;
-
+  font-size:15px;
 color: #000;
 }
 }
