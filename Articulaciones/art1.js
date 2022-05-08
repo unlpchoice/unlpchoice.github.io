@@ -40,111 +40,99 @@ var resultList=[];
 
 const quizdata=[
   {
-    question:"¿Qué tipo de articulación es la Calcáneo-cuboidea y la Astrágalo-escafoidea respectivamente?",
-    options:["Artrodia y Condílea.", "Encaje reciproco y Condílea.", "Artrodia y Enartrosis.", "Encaje reciproco y Enartrosis"],
-    answer:"Encaje reciproco y Enartrosis.",
+    question:"¿Porque articulaciones está compuesta la cintura escapular?",
+    options:["Acromioclavicular, escapulohumeral, humerocubital.", "Esternoclavicular, humerocubital, radiohumeral.", "Acromioclavicular, escapulohumeral, radiohumeral.", "Esternoclavicular, acromioclavicular, escapulohumeral."],
+    answer:"Esternoclavicular, acromioclavicular, escapulohumeral.",
     category:1
   },
 {
-    question:"¿Cuál es la estructura que se ubica entre los músculos y sus tendones, con fin de evitar roces y desgaste de misma fricción entre ellos?",
-    options:["Vainas sinoviales", "Aponeurosis.", "Fascias.", "Bolsa serosa."],
-    answer:"  Bolsa serosa.",
+    question:"¿Que tipo de articulación tenemos entre las falanges?",
+    options:["Trocoide.", "Artrodia.", "Troclear.", "Encaje reciproco."],
+    answer:"Troclear",
     category:1
   },
   {
-    question:"Cuál es la estructura anatómica de tejido conectivo que envuelve a los músculos en particular, de esta manera sectorizándolo para que su contracción vaya en un sentido determinado?",
-    options:["Vainas sinoviales.", "Fascias.", " Bolsa serosa.", "Aponeurosis."],
-    answer:"Fascias.",
+    question:"En cuanto a las articulaciones móviles, indique cual posee menor cantidad de movimientos",
+    options:["Enartrosis.", "Trocleartrosis.", "Artrodias.", "Por encaje reciproco."],
+    answer:"Artrodias.",
     category:1
   },
   {
-    question:"Cual de estos movimientos no ejecuta la rodilla?",
-    options:["Flexion,", " Circunduccion.", "Rotación.", " Extensión."],
-    answer:"Circunduccion.",
+    question:"El cóndilo de la articulación radiocarpiana está formado por los huesos:",
+    options:["Escafoides, semilunar, trapecio y trapezoide", "Cubito y radio.", "Escafoides, semilunar y piramidal", "Escafoides, semilunar, piramidal y pisiforme."],
+    answer:"Escafoides, semilunar y piramidal",
     category:1
   },
    {
-    question:"La llamada “articulación de Lisfranc”, se corresponde con cuál de las siguientes articulaciones:",
-    options:["Mediotarsiana.", "Tarsometatarsiana", "Tibioperoneoastragalina", "Metatarsofalángica"],
-    answer:"Tarsometatarsiana",
+    question:"¿Cuál de estas articulaciones es una esquindelesis?",
+    options:["Articulación esfenovomeriana.", "Articulación témporomandibular.", "Articulación parietotemporal.", "Articulación occipitoesfenoidal."],
+    answer:"Articulación esfenovomeriana.",
     category:1
   },
   {
-    question:"Qué limita la retroversion del muslo?",
-    options:["El cuello del femur contacta con la ceja cotiloidea", "Ligamento isquiofemoral", " Ligamento redondo", "Ligamento pubofemoral"],
-    answer:" El cuello del femur contacta con la ceja cotiloidea",
-    category:1
-  },
-    {
-    question:"Con respecto a la Rodilla, marque la opción INCORRECTA",
-    options:["a. Con la rotación externa de la rodilla los ligamentos cruzados se DESENRROLLAN", "b. El ligamento cruzado posterior se dirige desde la superficie retro espinosa de la tibia hacia arriba, adelante y adentro para insertarse en el cóndilo interno.", "Los ligamentos cruzados son dos: uno anterior y otro posterior.", "El ligamento cruzado anterior se dirige de la superficie preespinosa de la tibia hacia atrás, arriba y afuera para insertarse en el cóndilo externo."],
-    answer:"Con la rotación externa de la rodilla los ligamentos cruzados se DESENRROLLAN",
+    question:"Los movimientos de flexoextensión se producen sobre:",
+    options:["El eje sagital.", "El plano frontal.", "El eje longitudinal.", "El plano sagital."],
+    answer:"El plano sagital.",
     category:1
   },
    {
-    question:"¿Cuál es la estructura que se ubica entre los músculos y sus tendones, con fin de evitar roces y desgaste de misma fricción entre ellos?",
-    options:["Aponeurosis.", "Fascias.", "Vainas sinoviales.", "Bolsa serosa."],
-    answer:"Bolsa serosa.",
+    question:"Los movimientos que se realizan en el plano transversal alrededor del eje vertical son:",
+    options:["Circunducción.", "Abducción y aducción.", "Rotación interna y rotación externa.", "Flexión y extensión."],
+    answer:"Rotación interna y rotación externa.",
     category:1
   },
    {
-    question:"¿Cuál es el elemento anatómico que forma parte del músculo, de color blanca nacarada y poseen cierta capacidad contráctil?",
-    options:["Vainas sinoviales", "Bolsa serosa.", "Fascias.", "Aponeurosis."],
-    answer:"Aponeurosis.",
+    question:"¿Cómo se llaman los ligamentos que unen las láminas vertebrales entre sí?",
+    options:["Ligamento vertebral común posterior.", "Ligamentos interlaminarios.", "Ligamentos interespinales.", "Ligamentos amarillos."],
+    answer:"Ligamentos amarillos.",
     category:1
   },
    {
-    question:"Con respecto a la articulacion coxofemoral, marque la opcion INCORRECTA",
-    options:["En el trasfondo de la cavidad cotiloidea se inserta el ligamento redondo para la cabeza del fémur.", "Al ser una enartrosis, solo posee movimientos de flexo-extensión.", "El rodete cotiloideo sirve de contención para la cabeza del fémur.", "La escotadura isquiopubiana se encuentra cerrada por el ligamento transverso."],
-    answer:"Al ser una enartrosis, solo posee movimientos de flexo-extensión.",
+    question:"El ligamento de Cooper se encuentra en:",
+    options:["En la articulación del codo, anteriormente.", "En la articulación del codo, en el lateral interno.", "En la articulación del codo, en el lateral externo.", "En la articulación del codo, posteriormente."],
+    answer:"En la articulación del codo, en el lateral interno.",
     category:1
   },
    {
-    question:"A qué nos referimos cuando se un músculo es de carácter Digástrico?",
-    options:["Tiene dos vientres musculares separados por una porción tendinosa.", "Solo tiene un vientre muscular.", "Tiene un vientre muscular y un tendón de inserción.", "Ninguna de las anteriores es correcta."],
-    answer:"Tiene dos vientres musculares separados por una porción tendinosa.",
+    question:"El ligamento epiespinoso se encuentra",
+    options:["Por delante de las láminas.", "Conectando toda la espina de una vértebra a la que se encuentra por debajo.", "Conectando únicamente la punta de una espina de una vértebra a la punta de la espina que se encuentra por debajo.", "Por detrás de las láminas."],
+    answer:"Conectando únicamente la punta de una espina de una vértebra a la punta de la espina que se encuentra por debajo.",
     category:1
   },
   {
-    question:"La llamada “articulación de Chopart”, a cuál de las siguientes articulaciones se corresponde?",
-    options:["Metatarsofalángica.", "Tibioperoneoastragalina.", "Tarsometatarsiana.", "Mediotarsiana."],
-    answer:"Mediotarsiana.",
+    question:"¿Cuál de los siguientes es un ligamento extrínseco de la articulación Escapulohumeral?",
+    options:["Ligamento Coracohumeral.", "Ligamento Glenohumeral medio.", "Ligamento Glenohumeral superior.", "Ligamento Glenohumeral inferior."],
+    answer:"Ligamento Coracohumeral.",
     category:1
   },
    {
-    question:"Que ligamento limita la hiperextension de la rodilla",
-    options:["Ligamento lateral externo", "Ligamento lateral interno", "Ligamento cruzado anterior", "Ligamento cruzado posterior"],
-    answer:"Ligamento lateral interno",
+    question:"¿Cuáles son los ligamentos coracoclaviculares?",
+    options:["Trapezoide y coronoide.", "Trapezoide y coloide.", "Trapezoide y conoide.", "Trapezio y trapezoide."],
+    answer:"Trapezoide y conoide.",
     category:1
   },
  {
-    question:"¿Cuál es la estructura que envuelve a los tendones largos y contienen en su interior líquido?",
-    options:["Fascias.", "Aponeurosis.", "Bolsa serosa.", "Vainas sinoviales"],
-    answer:"Vainas sinoviales",
+    question:"El ligamento vertebral común anterior se encuentra:",
+    options:["Por delante de las láminas.", "Por delante de los cuerpos vertebrales.", "Por detrás de los cuerpo vertebrales.", "Por detrás de las láminas."],
+    answer:"Por delante de los cuerpos vertebrales.",
     category:1
   },
 {
-    question:"¿Cuáles son los huesos que articulan con el hueso grande del tarso?",
-    options:["Trapecio, trapezoide, semilunar, piramidal, 3° y 4° metacarpiano.", "Trapecio, trapezoide, semilunar, piramidal, pisiforme, 2° 3° y 4° metacarpiano.", "Trapezoide, escafoides, semilunar, hueso ganchoso, 2°, 3° y 4°. Metacarpianos.", "Los cinco metacarpiano y el hueso semilunar."],
-    answer:"Trapezoide, escafoides, semilunar, hueso ganchoso, 2°, 3° y 4°. Metacarpianos.",
+    question:"El movimiento de rotación del torso está garantizado por",
+    options:["Las articulaciones de la cadera.", "La columna cervical.", "La columna lumbar.", "La columna torácica."],
+    answer:"La columna lumbar.",
     category:1
   },
    {
-    question:"¿Qué tipo de articulación es la articulación sacroilíaca?",
-    options:["Sinartrosis.", "Troclear.", "Artrodia.", "Diartroanfiartrosis."],
-    answer:"Diartroanfiartrosis",
+    question:"Las sinartrosis son:",
+    options:["Articulaciones sin movimiento, unidas por tejido fibroso o por tejido cartilaginoso.", "Articulaciones con escaso movimiento, unidas por tejido fibroso o por tejido cartilaginoso.", "Articulaciones con movimiento, unidas por tejido fibroso y por tejido cartilaginoso.", "Articulaciones con movimiento, unidas por tejido fibroso o por tejido cartilaginoso."],
+    answer:"Articulaciones sin movimiento, unidas por tejido fibroso o por tejido cartilaginoso.",
     category:1
   },
 {
-    question:"Cual estos es un movimiento NORMAL de la rodilla",
-    options:["Rotación", "Cajon Posterior", "Cajón anterior", "Bostezo externo"],
-    answer:"Rotación",
-    category:1
-  },
-{
-    question:"La llamada “articulación de Chopart”, a cuál de las siguientes articulaciones se corresponde?",
-    options:["Metatarsofalángica", "Tibioperoneoastragalina.", "Tarsometatarsiana.", "Mediotarsiana."],
-    answer:"Mediotarsiana.",
+    question:"Una articulación Troclear puede realizar movimientos de ",
+    options:["Flexo-extensión.", "Rotación interna-externa.", "Aducción-Abducción.", "Todas son correctas."],
+    answer:"Flexo-extensión.",
     category:1
   },
 
