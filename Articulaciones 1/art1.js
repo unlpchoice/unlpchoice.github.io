@@ -39,114 +39,115 @@ var resultList=[];
 
 
 const quizdata=[
-      {
-        question:"¿Qué tipo de articulación es la Calcáneo-cuboidea y la Astrágalo-escafoidea respectivamente?",
-        options:["Artrodia y Condílea.", "Encaje reciproco y Condílea.", "Artrodia y Enartrosis.", "Encaje reciproco y Enartrosis"],
-        answer:"Encaje reciproco y Enartrosis.",
-        category:1
-      },
-	  {
-        question:"¿Cuál es la estructura que se ubica entre los músculos y sus tendones, con fin de evitar roces y desgaste de misma fricción entre ellos?",
-        options:["Vainas sinoviales", "Aponeurosis.", "Fascias.", "Bolsa serosa."],
-        answer:"Bolsa serosa.",
-        category:1
-      },
-      {
-        question:"Cuál es la estructura anatómica de tejido conectivo que envuelve a los músculos en particular, de esta manera sectorizándolo para que su contracción vaya en un sentido determinado?",
-        options:["Vainas sinoviales.", "Fascias.", " Bolsa serosa.", "Aponeurosis."],
-        answer:"Fascias.",
-        category:1
-      },
-      {
-        question:"Cual de estos movimientos no ejecuta la rodilla?",
-        options:["Flexion,", "Circunduccion", "Rotación", " Extensión"],
-        answer:"Circunduccion.",
-        category:1
-      },
-       {
-        question:"La llamada “articulación de Lisfranc”, se corresponde con cuál de las siguientes articulaciones:",
-        options:["Mediotarsiana.", "Tarsometatarsiana", "Tibioperoneoastragalina", "Metatarsofalángica"],
-        answer:"Tarsometatarsiana",
-        category:1
-      },
-      {
-        question:"Qué limita la retroversion del muslo?",
-        options:["El cuello del femur contacta con la ceja cotiloidea", "Ligamento isquiofemoral", " Ligamento redondo", "Ligamento pubofemoral"],
-        answer:"El cuello del femur contacta con la ceja cotiloidea",
-        category:1
-      },
-	  	  {
-        question:"Con respecto a la Rodilla, marque la opción INCORRECTA",
-        options:["Con la rotación externa de la rodilla los ligamentos cruzados de DESENRROLLAN", "El ligamento cruzado posterior se dirige desde la superficie retro espinosa de la tibia hacia arriba, adelante y adentro para insertarse en el cóndilo interno.", "Los ligamentos cruzados son dos: uno anterior y otro posterior.", "El ligamento cruzado anterior se dirige de la superficie preespinosa de la tibia hacia atrás, arriba y afuera para insertarse en el cóndilo externo."],
-        answer:"Con la rotación externa de la rodilla los ligamentos cruzados de DESENRROLLAN",
-        category:1
-      },
-       {
-        question:"¿Cuál es la estructura que se ubica entre los músculos y sus tendones, con fin de evitar roces y desgaste de misma fricción entre ellos?",
-        options:["Aponeurosis", "Fascias", "Vainas sinoviales", "Bolsa serosa"],
-        answer:"Bolsa serosa",
-        category:1
-      },
-       {
-        question:"¿Cuál es el elemento anatómico que forma parte del músculo, de color blanca nacarada y poseen cierta capacidad contráctil?",
-        options:["Vainas sinoviales", "Bolsa serosa.", "Fascias.", "Aponeurosis."],
-        answer:"Aponeurosis.",
-        category:1
-      },
-       {
-        question:"Con respecto a la articulacion coxofemoral, marque la opcion INCORRECTA",
-        options:["En el trasfondo de la cavidad cotiloidea se inserta el ligamento redondo para la cabeza del fémur.", "Al ser una enartrosis, solo posee movimientos de flexo-extensión.", "El rodete cotiloideo sirve de contención para la cabeza del fémur.", "La escotadura isquiopubiana se encuentra cerrada por el ligamento transverso."],
-        answer:"Al ser una enartrosis, solo posee movimientos de flexo-extensión.",
-        category:1
-      },
-       {
-        question:"A qué nos referimos cuando se un músculo es de carácter Digástrico?",
-        options:["Tiene dos vientres musculares separados por una porción tendinosa.", "Solo tiene un vientre muscular.", "Tiene un vientre muscular y un tendón de inserción.", "Ninguna de las anteriores es correcta."],
-        answer:"Tiene dos vientres musculares separados por una porción tendinosa.",
-        category:1
-      },
-      {
-        question:"La llamada “articulación de Chopart”, a cuál de las siguientes articulaciones se corresponde?",
-        options:["Metatarsofalángica.", "Tibioperoneoastragalina.", "Tarsometatarsiana.", "Mediotarsiana."],
-        answer:"Mediotarsiana.",
-        category:1
-      },
-       {
-        question:"Que ligamento limita la hiperextension de la rodilla",
-        options:["Ligamento lateral externo", "Ligamento lateral interno", "Ligamento cruzado anterior", "Ligamento cruzado posterior"],
-        answer:"Ligamento lateral interno",
-        category:1
-      },
-	   {
-        question:"¿Cuál es la estructura que envuelve a los tendones largos y contienen en su interior líquido?",
-        options:["Fascias.", "Aponeurosis.", "Bolsa serosa.", "Vainas sinoviales"],
-        answer:"Vainas sinoviales",
-        category:1
-      },
-	  {
-        question:"¿Cuáles son los huesos que articulan con el hueso grande del tarso?",
-        options:["Trapecio, trapezoide, semilunar, piramidal, 3° y 4° metacarpiano.", "Trapecio, trapezoide, semilunar, piramidal, pisiforme, 2° 3° y 4° metacarpiano.", "Trapezoide, escafoides, semilunar, hueso ganchoso, 2°, 3° y 4°. Metacarpianos.", "Los cinco metacarpiano y el hueso semilunar."],
-        answer:"Trapezoide, escafoides, semilunar, hueso ganchoso, 2°, 3° y 4°. Metacarpianos.",
-        category:1
-      },
-       {
-        question:"¿Qué tipo de articulación es la articulación sacroilíaca?",
-        options:["Sinartrosis.", "Troclear.", "Artrodia.", "Diartroanfiartrosis"],
-        answer:"Diartroanfiartrosis",
-        category:1
-      },
-	  {
-        question:"Cual estos es un movimiento NORMAL de la rodilla",
-        options:["Rotación", "Cajon Posterior", "Cajón anterior", "Bostezo externo"],
-        answer:"Rotación",
-        category:1
-      },
-	  {
-        question:"La llamada “articulación de Chopart”, a cuál de las siguientes articulaciones se corresponde?",
-        options:["Metatarsofalángica", "Tibioperoneoastragalina.", "Tarsometatarsiana.", "Mediotarsiana."],
-        answer:"Mediotarsiana.",
-        category:1
-      }
+  {
+    question:"¿Qué tipo de articulación es la Calcáneo-cuboidea y la Astrágalo-escafoidea respectivamente?",
+    options:["Artrodia y Condílea.", "Encaje reciproco y Condílea.", "Artrodia y Enartrosis.", "Encaje reciproco y Enartrosis"],
+    answer:"Encaje reciproco y Enartrosis.",
+    category:1
+  },
+{
+    question:"¿Cuál es la estructura que se ubica entre los músculos y sus tendones, con fin de evitar roces y desgaste de misma fricción entre ellos?",
+    options:["Vainas sinoviales", "Aponeurosis.", "Fascias.", "Bolsa serosa."],
+    answer:"  Bolsa serosa.",
+    category:1
+  },
+  {
+    question:"Cuál es la estructura anatómica de tejido conectivo que envuelve a los músculos en particular, de esta manera sectorizándolo para que su contracción vaya en un sentido determinado?",
+    options:["Vainas sinoviales.", "Fascias.", " Bolsa serosa.", "Aponeurosis."],
+    answer:"Fascias.",
+    category:1
+  },
+  {
+    question:"Cual de estos movimientos no ejecuta la rodilla?",
+    options:["Flexion,", " Circunduccion.", "Rotación.", " Extensión."],
+    answer:"Circunduccion.",
+    category:1
+  },
+   {
+    question:"La llamada “articulación de Lisfranc”, se corresponde con cuál de las siguientes articulaciones:",
+    options:["Mediotarsiana.", "Tarsometatarsiana", "Tibioperoneoastragalina", "Metatarsofalángica"],
+    answer:"Tarsometatarsiana",
+    category:1
+  },
+  {
+    question:"Qué limita la retroversion del muslo?",
+    options:["El cuello del femur contacta con la ceja cotiloidea", "Ligamento isquiofemoral", " Ligamento redondo", "Ligamento pubofemoral"],
+    answer:" El cuello del femur contacta con la ceja cotiloidea",
+    category:1
+  },
+    {
+    question:"Con respecto a la Rodilla, marque la opción INCORRECTA",
+    options:["a. Con la rotación externa de la rodilla los ligamentos cruzados se DESENRROLLAN", "b. El ligamento cruzado posterior se dirige desde la superficie retro espinosa de la tibia hacia arriba, adelante y adentro para insertarse en el cóndilo interno.", "Los ligamentos cruzados son dos: uno anterior y otro posterior.", "El ligamento cruzado anterior se dirige de la superficie preespinosa de la tibia hacia atrás, arriba y afuera para insertarse en el cóndilo externo."],
+    answer:"Con la rotación externa de la rodilla los ligamentos cruzados se DESENRROLLAN",
+    category:1
+  },
+   {
+    question:"¿Cuál es la estructura que se ubica entre los músculos y sus tendones, con fin de evitar roces y desgaste de misma fricción entre ellos?",
+    options:["Aponeurosis.", "Fascias.", "Vainas sinoviales.", "Bolsa serosa."],
+    answer:"Bolsa serosa.",
+    category:1
+  },
+   {
+    question:"¿Cuál es el elemento anatómico que forma parte del músculo, de color blanca nacarada y poseen cierta capacidad contráctil?",
+    options:["Vainas sinoviales", "Bolsa serosa.", "Fascias.", "Aponeurosis."],
+    answer:"Aponeurosis.",
+    category:1
+  },
+   {
+    question:"Con respecto a la articulacion coxofemoral, marque la opcion INCORRECTA",
+    options:["En el trasfondo de la cavidad cotiloidea se inserta el ligamento redondo para la cabeza del fémur.", "Al ser una enartrosis, solo posee movimientos de flexo-extensión.", "El rodete cotiloideo sirve de contención para la cabeza del fémur.", "La escotadura isquiopubiana se encuentra cerrada por el ligamento transverso."],
+    answer:"Al ser una enartrosis, solo posee movimientos de flexo-extensión.",
+    category:1
+  },
+   {
+    question:"A qué nos referimos cuando se un músculo es de carácter Digástrico?",
+    options:["Tiene dos vientres musculares separados por una porción tendinosa.", "Solo tiene un vientre muscular.", "Tiene un vientre muscular y un tendón de inserción.", "Ninguna de las anteriores es correcta."],
+    answer:"Tiene dos vientres musculares separados por una porción tendinosa.",
+    category:1
+  },
+  {
+    question:"La llamada “articulación de Chopart”, a cuál de las siguientes articulaciones se corresponde?",
+    options:["Metatarsofalángica.", "Tibioperoneoastragalina.", "Tarsometatarsiana.", "Mediotarsiana."],
+    answer:"Mediotarsiana.",
+    category:1
+  },
+   {
+    question:"Que ligamento limita la hiperextension de la rodilla",
+    options:["Ligamento lateral externo", "Ligamento lateral interno", "Ligamento cruzado anterior", "Ligamento cruzado posterior"],
+    answer:"Ligamento lateral interno",
+    category:1
+  },
+ {
+    question:"¿Cuál es la estructura que envuelve a los tendones largos y contienen en su interior líquido?",
+    options:["Fascias.", "Aponeurosis.", "Bolsa serosa.", "Vainas sinoviales"],
+    answer:"Vainas sinoviales",
+    category:1
+  },
+{
+    question:"¿Cuáles son los huesos que articulan con el hueso grande del tarso?",
+    options:["Trapecio, trapezoide, semilunar, piramidal, 3° y 4° metacarpiano.", "Trapecio, trapezoide, semilunar, piramidal, pisiforme, 2° 3° y 4° metacarpiano.", "Trapezoide, escafoides, semilunar, hueso ganchoso, 2°, 3° y 4°. Metacarpianos.", "Los cinco metacarpiano y el hueso semilunar."],
+    answer:"Trapezoide, escafoides, semilunar, hueso ganchoso, 2°, 3° y 4°. Metacarpianos.",
+    category:1
+  },
+   {
+    question:"¿Qué tipo de articulación es la articulación sacroilíaca?",
+    options:["Sinartrosis.", "Troclear.", "Artrodia.", "Diartroanfiartrosis."],
+    answer:"Diartroanfiartrosis",
+    category:1
+  },
+{
+    question:"Cual estos es un movimiento NORMAL de la rodilla",
+    options:["Rotación", "Cajon Posterior", "Cajón anterior", "Bostezo externo"],
+    answer:"Rotación",
+    category:1
+  },
+{
+    question:"La llamada “articulación de Chopart”, a cuál de las siguientes articulaciones se corresponde?",
+    options:["Metatarsofalángica", "Tibioperoneoastragalina.", "Tarsometatarsiana.", "Mediotarsiana."],
+    answer:"Mediotarsiana.",
+    category:1
+  },
+
 	  
     ];
 /** Random shuffle questions **/
