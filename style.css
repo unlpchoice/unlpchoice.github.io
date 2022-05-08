@@ -956,8 +956,22 @@ input[type="radio"]:checked ~ .bullet .line.seven{
     font-size: 30px;
     color:black;
    }
-.quizbox{ font-size:30px; 
-}
+   .quizBox
+   {
+     font-size: 9px;
+     text-align: left;
+       width: auto;
+       background-repeat: no-repeat;
+       background-size: cover;
+       margin: 3% auto;
+     margin-bottom: 2px;
+       padding: 22px;
+     padding-bottom: 42px;
+       border: 1px solid #000000;
+       border-radius: 20px;
+       box-shadow: 0px 0px 5px #000000, 0px 0px 5px, 0px 0px 3px;
+       position: relative;
+   }
 .quizArea{
   width: 35.125em;
  margin:  auto;
@@ -965,6 +979,11 @@ input[type="radio"]:checked ~ .bullet .line.seven{
  position: relative;
  text-align: center;
  }
+ label{
+  font-size: 20px;
+
+color: #000;
+}
 
 }
 
@@ -981,8 +1000,22 @@ input[type="radio"]:checked ~ .bullet .line.seven{
     font-size: 29px;
     color:black;
    }
-.quizbox{ font-size:20px; 
-}
+   .quizBox
+   {
+     font-size: 9px;
+     text-align: left;
+       width: auto;
+       background-repeat: no-repeat;
+       background-size: cover;
+       margin: 3% auto;
+     margin-bottom: 2px;
+       padding: 22px;
+     padding-bottom: 42px;
+       border: 1px solid #000000;
+       border-radius: 20px;
+       box-shadow: 0px 0px 5px #000000, 0px 0px 5px, 0px 0px 3px;
+       position: relative;
+   }
 .quizArea{
   width: 35.125em;
  margin:  auto;
@@ -992,7 +1025,11 @@ input[type="radio"]:checked ~ .bullet .line.seven{
  }
 
 }
+label{
+  font-size: 20px;
 
+color: #000;
+}
 /* 
 ##Device = Low Resolution Tablets, Mobiles (Landscape)
 ##Screen = B/w 481px to 767px
@@ -1006,8 +1043,22 @@ input[type="radio"]:checked ~ .bullet .line.seven{
     font-size: 29px;
     color:black;
    }
-.quizbox{ font-size:29px; 
-}
+   .quizBox
+   {
+     font-size: 9px;
+     text-align: left;
+       width: auto;
+       background-repeat: no-repeat;
+       background-size: cover;
+       margin: 3% auto;
+     margin-bottom: 2px;
+       padding: 22px;
+     padding-bottom: 42px;
+       border: 1px solid #000000;
+       border-radius: 20px;
+       box-shadow: 0px 0px 5px #000000, 0px 0px 5px, 0px 0px 3px;
+       position: relative;
+   }
 .quizArea{
   width: 35.125em;
  margin:  auto;
@@ -1015,7 +1066,11 @@ input[type="radio"]:checked ~ .bullet .line.seven{
  position: relative;
  text-align: center;
  }
+ label{
+  font-size: 20px;
 
+color: #000;
+}
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
@@ -1025,8 +1080,22 @@ input[type="radio"]:checked ~ .bullet .line.seven{
     font-size: 29px;
     color:black;
    }
-.quizbox{ font-size:20px; 
-}
+   .quizBox
+   {
+     font-size: 9px;
+     text-align: left;
+       width: auto;
+       background-repeat: no-repeat;
+       background-size: cover;
+       margin: 3% auto;
+     margin-bottom: 2px;
+       padding: 22px;
+     padding-bottom: 42px;
+       border: 1px solid #000000;
+       border-radius: 20px;
+       box-shadow: 0px 0px 5px #000000, 0px 0px 5px, 0px 0px 3px;
+       position: relative;
+   }
 .quizArea{
   width: 35.125em;
  margin:  auto;
@@ -1034,4 +1103,9 @@ input[type="radio"]:checked ~ .bullet .line.seven{
  position: relative;
  text-align: center;
  }
+ label{
+  font-size: 20px;
+
+color: #000;
+}
 }
