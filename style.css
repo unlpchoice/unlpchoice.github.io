@@ -914,25 +914,77 @@ input[type="radio"]:checked ~ .bullet .line.seven{
 	}
 }
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  {       
-  
-  body{
-
-  background: #2b898e9e;
-  font-family: 'Roboto Slab', serif;    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-  font-size: 2.1875em;
-  color:black;
- }
-
-.quizArea{
-
-  width: 33.125em;
- margin:  auto;
- padding:0.1875em;
- position: relative;
- text-align: center;
+@ -912,4 +912,72 @@ input[type="radio"]:checked ~ .bullet .line.seven{
+  height: 0px;
+  opacity:0;
 }
 }
- 
+
+
+/* 
+##Device = Desktops
+##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+//CSS
+
+}
+
+/* 
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+//CSS
+
+}
+
+/* 
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+//CSS
+
+}
+
+/* 
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+//CSS
+
+}
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+//CSS
+
+}
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .quizArea{ 
+    height: 5900.25em;
+    font-size: 1.875em;
+  }
+}
