@@ -125,7 +125,7 @@ html, body {
 	font-family: 'FontAwesome';
  }
 .quizArea{
-  width: 85%;
+  width: 75 em;
  margin:  auto;
  padding:3px;
  position: relative;
@@ -914,23 +914,25 @@ input[type="radio"]:checked ~ .bullet .line.seven{
 	}
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-  body{
+/* 2688x1242px at 458ppi */
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) {
+      body{
+    
+        background: #2b898e9e;
+        font-family: 'Roboto Slab', serif;    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+        font-size: 30px;
+        color:black;
+       }
 
-    background: #2b898e9e;
-    font-family: 'Roboto Slab', serif;    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-size: 30px;
-    color:black;
-   }
-  }
-  .quizArea{
-    width: 33.125em;
-   margin:  auto;
-   padding:0.1875em;
-   position: relative;
-   text-align: center;
-   }
-.quizbox{ font-size:30px; 
-}
-
-}
+      .quizArea{
+        width: 33.125em;
+       margin:  auto;
+       padding:0.1875em;
+       position: relative;
+       text-align: center;
+        }
+      }
+ 
