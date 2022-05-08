@@ -979,5 +979,6 @@ input[type="radio"]:checked ~ .bullet .line.seven{
   
   .quizArea{ 
     height: 5900.25em;
+    font-size: 1.875em;
   }
 }
