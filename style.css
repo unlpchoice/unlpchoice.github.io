@@ -888,7 +888,7 @@ input[type="radio"]:checked ~ .bullet .line.seven{
 		transform: rotate(-55deg) translate(20px);
 		width: 10px;
 	}
-	20% {
+	20% { 
 		opacity:1;
 	}
 	100% {
@@ -975,7 +975,7 @@ input[type="radio"]:checked ~ .bullet .line.seven{
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 1792) and (max-width: 828) {
   
   .quizArea{ 
     height: 5900.25em;
