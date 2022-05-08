@@ -978,10 +978,10 @@ input[type="radio"]:checked ~ .bullet .line.seven{
   body{
     background: #2b898e9e;
     font-family: 'Roboto Slab', serif;    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color:black;
    }
-.quizbox{ font-size:30px; 
+.quizbox{ font-size:20px; 
 }
 .quizArea{
   width: 78.125em;
@@ -1003,10 +1003,10 @@ input[type="radio"]:checked ~ .bullet .line.seven{
   body{
     background: #2b898e9e;
     font-family: 'Roboto Slab', serif;    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color:black;
    }
-.quizbox{ font-size:30px; 
+.quizbox{ font-size:20px; 
 }
 .quizArea{
   width: 78.125em;
