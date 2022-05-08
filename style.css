@@ -914,25 +914,25 @@ input[type="radio"]:checked ~ .bullet .line.seven{
 	}
 }
 
-/* 2688x1242px at 458ppi */
 @media only screen 
-    and (device-width: 414px) 
-    and (device-height: 896px) 
-    and (-webkit-device-pixel-ratio: 3) {
-      body{
-    
-        background: #2b898e9e;
-        font-family: 'Roboto Slab', serif;    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-        font-size: 30px;
-        color:black;
-       }
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {       
+  
+  body{
 
-      .quizArea{
-        width: 33.125em;
-       margin:  auto;
-       padding:0.1875em;
-       position: relative;
-       text-align: center;
-        }
-      }
+  background: #2b898e9e;
+  font-family: 'Roboto Slab', serif;    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 2.1875em;
+  color:black;
+ }
+
+.quizArea{
+
+  width: 33.125em;
+ margin:  auto;
+ padding:0.1875em;
+ position: relative;
+ text-align: center;
+}
+}
  
