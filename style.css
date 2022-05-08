@@ -203,7 +203,8 @@ button {
 .viewanswer,
 .viewchart,
 .replay{
-	width: 30%;
+  font-size: 12px;
+	width: 83%;
 }
 
 .backBtn{
@@ -227,6 +228,8 @@ button {
 	
    cursor:pointer;
    display:inline-block;
+   width:99.1%;
+   height:20px;
    padding: 0px;
    padding-right: 12px;
    background: #272727b0;
@@ -346,7 +349,7 @@ button {
 	background: #6cabaf ;
 }
 .h-correct{
-	background: #968089;
+	background: #6cabaf;
 
 }
 
@@ -363,7 +366,7 @@ button {
   color: #046b0e;
 }
 .h-incorrect {
-    background: #6cabaf;
+    background: #af6c6c;
 }
 .h-incorrect:after {
   line-height: 1.4;
@@ -605,7 +608,7 @@ li {
 	height:30px;
 }
 label{
-		font-size: 14px;
+		font-size: 13px;
 
 	color: #000;
 }
@@ -980,7 +983,7 @@ input[type="radio"]:checked ~ .bullet .line.seven{
  text-align: center;
  }
  label{
-  font-size:24px;
+  font-size:15px;
 color: #000;
 }
 
@@ -991,7 +994,7 @@ color: #000;
 ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1024px) {
 
   body{
     background: #2b898e9e;
@@ -1026,7 +1029,7 @@ color: #000;
 }
 label{
 
-  font-size:24px;
+  font-size:15px;
 color: #000;
 }
 /* 
