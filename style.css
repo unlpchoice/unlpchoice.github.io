@@ -978,7 +978,7 @@ input[type="radio"]:checked ~ .bullet .line.seven{
   body{
     background: #2b898e9e;
     font-family: 'Roboto Slab', serif;    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-size: 20px;
+    font-size: 29px;
     color:black;
    }
 .quizbox{ font-size:20px; 
@@ -1003,10 +1003,10 @@ input[type="radio"]:checked ~ .bullet .line.seven{
   body{
     background: #2b898e9e;
     font-family: 'Roboto Slab', serif;    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-size: 20px;
+    font-size: 29px;
     color:black;
    }
-.quizbox{ font-size:20px; 
+.quizbox{ font-size:29px; 
 }
 .quizArea{
   width: 35.125em;
@@ -1022,7 +1022,7 @@ input[type="radio"]:checked ~ .bullet .line.seven{
   body{
     background: #2b898e9e;
     font-family: 'Roboto Slab', serif;    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-size: 20px;
+    font-size: 29px;
     color:black;
    }
 .quizbox{ font-size:20px; 
