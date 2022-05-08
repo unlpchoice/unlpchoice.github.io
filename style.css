@@ -125,7 +125,7 @@ html, body {
 	font-family: 'FontAwesome';
  }
 .quizArea{
-  width: 95%;
+  width: 85%;
  margin:  auto;
  padding:3px;
  position: relative;
@@ -922,6 +922,15 @@ input[type="radio"]:checked ~ .bullet .line.seven{
     font-size: 30px;
     color:black;
    }
+  }
+  .quizArea{
+    width: 78.125em;
+   margin:  auto;
+   padding:0.1875em;
+   position: relative;
+   text-align: center;
+   }
 .quizbox{ font-size:30px; 
 }
+
 }
