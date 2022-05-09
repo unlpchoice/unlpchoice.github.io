@@ -191,7 +191,8 @@ const quizdata=[
     options:["Músculos Esternocleidohioideo, omohioideo, esternocleidomastoideo y recto anterior.", "Músculos Esternocleidomastoideo,tirohioideo y esternotiroideo.", "Músculos Tirohioideo, esternotiroideo, esternocleidomastoideo y recto anterior.", "Músculos Esternocleidohioideo, omohioideo, tirohioideo y esternotiroideo."]
     answer:"Músculos Esternocleidohioideo, omohioideo, tirohioideo y esternotiroideo.",
     category:1
-  },
+  }
+  
  
     ];
 
