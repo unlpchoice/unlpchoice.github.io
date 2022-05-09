@@ -69,7 +69,7 @@ const quizdata=[
     answer:"Las fibras tendinosas más internas de los dos pilares se entrecruzan a menudo en la línea media con las del lado opuesto",
     category:1
   },
-  {
+   {
     question:"¿Cuál es el límite inferior del abdomen?",
     options:["Músculos Oblicuos del abdomen", "Músculos retroperitoneales", "Músculo diafragma", "Músculos del periné"],
     answer:"Músculos del periné.",
@@ -171,28 +171,25 @@ const quizdata=[
     answer:"Recto mayor del abdomen y piramidal.",
     category:1
   },
-
 {
     question:"¿Cuáles son las acciones del grupo lateral del cuello? mas de una respuesta correcta.",
     options:["Flexión lateral del cuello y Rotacion de las Costillas", "Rotación de las costillas", "Elevación de las costillas y Flexion Lateral del Cuello.", "Extensión lateral del cuello"],
     answer:"Elevación de las costillas y Flexion Lateral del Cuello.",
     category:1
   },
-
 {
     question:"¿Qué nervio inerva principalmente el musculo Esternocleidomastoideo?",
     options:["Nervio Vago.", "Plexo braquial.", "Nervio Hipogloso.", "Nervio Espinal."],
     answer:"Nervio Espinal.",
     category:1
   },
-
 {
     question:"¿Cuáles son los músculos infrahioideos?",
-    options:["Músculos Esternocleidohioideo, omohioideo, esternocleidomastoideo y recto anterior.", "Músculos Esternocleidomastoideo,tirohioideo y esternotiroideo.", "Músculos Tirohioideo, esternotiroideo, esternocleidomastoideo y recto anterior.", "Músculos Esternocleidohioideo, omohioideo, tirohioideo y esternotiroideo."]
+    options:["Músculos Esternocleidohioideo, omohioideo, esternocleidomastoideo y recto anterior.", "Músculos Esternocleidomastoideo,tirohioideo y esternotiroideo.", "Músculos Tirohioideo, esternotiroideo, esternocleidomastoideo y recto anterior.", "Músculos Esternocleidohioideo, omohioideo, tirohioideo y esternotiroideo."],
     answer:"Músculos Esternocleidohioideo, omohioideo, tirohioideo y esternotiroideo.",
     category:1
   }
-  
+
  
     ];
 

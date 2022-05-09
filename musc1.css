@@ -549,7 +549,7 @@ progress::-webkit-progress-value {
 .my-progress-indicator.progress_17 {
 	left: 66.5%;
 }
-.my-progress-indicator.progress_19 {
+.my-progress-indicator.progress_18 {
 	left: 70.7%;
 }
 .my-progress-indicator.progress_19 {
@@ -559,7 +559,7 @@ progress::-webkit-progress-value {
 	left: 79%;
 }
 .my-progress-indicator.progress_21 {
-	left: 83.2;
+	left: 83.2%;
 }
 .my-progress-indicator.progress_22 {
 	left:  87.3%;
@@ -1161,7 +1161,7 @@ color: #000;
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   body{
-    background: #2b898e9e;
+	#sidebar-box {background: url("../images/sidebar-ground.png") no-repeat;}
     font-family: 'Roboto Slab', serif;    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     font-size: 29px;
     color:black;
@@ -1181,7 +1181,16 @@ color: #000;
        border-radius: 20px;
        box-shadow: 0px 0px 5px #000000, 0px 0px 5px, 0px 0px 3px;
        position: relative;
+	   
+	 ​
    }
+
+   div.image::before {	
+	content:url(https://i.imgur.com/WVvTG4h.png);
+    display:flex;
+	justify-content:center;
+	
+ }
 .quizArea{
   width: 35.125em;
  margin:  auto;
@@ -1193,4 +1202,5 @@ color: #000;
   font-size:24px;
 color: #000;
 }
+
 }
