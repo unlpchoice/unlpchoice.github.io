@@ -72,7 +72,7 @@ const quizdata=[
    {
     question:"¿Cuál es el límite inferior del abdomen?",
     options:["Músculos Oblicuos del abdomen", "Músculos retroperitoneales", "Músculo diafragma", "Músculos del periné"],
-    answer:"Músculos del periné.",
+    answer:"Músculos del periné",
     category:1
   },
     {
@@ -107,14 +107,14 @@ const quizdata=[
   },
   {
     question:"Con respecto al pectoral menor, marque la opción correcta:",
-    options:["Se extiende desde la tercera y cuarta costilla hasta la apófisis coracoides.", "Forma parte del plano superficial junto con el pectoral mayor.", "c. Esta situado por debajo del subclavio del cual queda separado por un espacio denominado espacio clavipectoral.", "Cuando se toma su punto fijo en las costillas, sube el muñón del hombro."],
+    options:["Se extiende desde la tercera y cuarta costilla hasta la apófisis coracoides.", "Forma parte del plano superficial junto con el pectoral mayor.", "Esta situado por debajo del subclavio del cual queda separado por un espacio denominado espacio clavipectoral.", "Cuando se toma su punto fijo en las costillas, sube el muñón del hombro."],
     answer:"Esta situado por debajo del subclavio del cual queda separado por un espacio denominado espacio clavipectoral.",
     category:1
   },
    {
     question:"¿Cuáles son las estructuras anatómicas relacionadas con la capa posterior del músculo esternocleidomastoideo?",
     options:["Vena Yugular Externa, Arterias Carótidas y Nervio Espinal.", "Vena Yugular Interna, Arteria Subclavia y Nervio Neumogástrico.", "Vena Yugular Externa, Arteria Carótida y Nervio Neumogástrico", "Vena Yugular Interna, Arterias Carótidas y Nervio Neumogástrico"],
-    answer:"Vena Yugular Interna, Arterias Carótidas y Nervio Neumogástrico.",
+    answer:"Vena Yugular Interna, Arterias Carótidas y Nervio Neumogástrico",
     category:1
   },
  {
