@@ -94,7 +94,7 @@ const quizdata=[
         category:1
       },
       {
-        question:"INdique la respuesta correcta respecto al cóndilo temporal:",
+        question:"I la respuesta correcta respecto al cóndilo temporal:",
         options:["Permite la articulación del cráneo con la columna vertebral", "Permite la articulación del hueso temporal con el hueso malar", "Forma parte de la articulación temporomandibular", "Contiene al agujero condíleo anterior"],
         answer:"Forma parte de la articulación temporomandibular",
         category:1
@@ -130,7 +130,7 @@ const quizdata=[
       category:1
     },
     {
-      question:"¿Cuáles son los músculos infrahioideos?"
+      question:"¿Cuáles son los músculos infrahioideos?",
       options:["Músculos Esternocleidohioideo, omohioideo, tirohioideo y esternotiroideo.", "Músculos Esternocleidomastoideo,tirohioideo y esternotiroideo", "Músculos Tirohioideo,  esternotiroideo, esternocleidomastoideo y rectoanterior", "Músculos Esternocleidohioideo, omohioideo, esternocleidomastoideo y rectoanterior."],
       answer:"Músculos Esternocleidohioideo, omohioideo, tirohioideo y esternotiroideo",
       category:1
