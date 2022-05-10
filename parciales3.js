@@ -94,7 +94,7 @@ const quizdata=[
         category:1
       },
       {
-        question:"Indique la respuesta correcta respecto al cóndilo temporal:",
+        question:"INdique la respuesta correcta respecto al cóndilo temporal:",
         options:["Permite la articulación del cráneo con la columna vertebral", "Permite la articulación del hueso temporal con el hueso malar", "Forma parte de la articulación temporomandibular", "Contiene al agujero condíleo anterior"],
         answer:"Forma parte de la articulación temporomandibular",
         category:1
