@@ -119,8 +119,8 @@ const quizdata=[
       },
     {
         question:"¿Quién inerva al músculo deltoides?",
-        options:["Nervio Espinal C1", "Nervio Radial", "Nervio Espina", "Nervio Circunflejo"],
-        answer:"Nervio Circunfejo",
+        options:["Nervio Espinal C1", "Nervio Radial", "Nervio Espinal", "Nervio Circunflejo"],
+        answer:"Nervio Circunflejo",
         category:1
       },
     {
