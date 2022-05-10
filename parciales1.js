@@ -83,7 +83,7 @@ const quizdata=[
       },
     {
         question:"¿Cuáles son las estructuras anatómicas relacionadas con la capa posterior del músculo esternocleidomastoideo?",
-        options:["Vena Yugular Interna, Arteria Subclavia y Nervio Neumogástrico.", " Vena Yugular Interna, Arterias Carótidas y Nervio Neumogástrico.", "Vena Yugular Externa, Arterias Carótidas y Nervio Espinal.", "Vena Yugular Externa, Arteria Carótida y Nervio Neumogástrico"],
+        options:["Vena Yugular Interna, Arteria Subclavia y Nervio Neumogástrico.", "Vena Yugular Interna, Arterias Carótidas y Nervio Neumogástrico.", "Vena Yugular Externa, Arterias Carótidas y Nervio Espinal.", "Vena Yugular Externa, Arteria Carótida y Nervio Neumogástrico"],
         answer:"Vena Yugular Interna, Arterias Carótidas y Nervio Neumogástrico.",
         category:1
       },
@@ -108,7 +108,7 @@ const quizdata=[
     {
       question:"¿Cuál es el ligamento que se encuentra en el seno del tarso?",
       options:["Tibioperoneo", "Peroneo astragalina", "Calcaneo Cuboideo", "Calcaneo Astragalino"],
-      answer:"Calcaneo astragalino",
+      answer:"Calcaneo Astragalino",
       category:1
     },
     {
@@ -155,7 +155,7 @@ const quizdata=[
       },
     {
         question:"Complete segun corresponda: POR EL AGUJERO REDONDO MAYOR PASA....",
-        options:["Nervio maxilar", "Nervio vidiano", "Arteria meningea media", "Nervio mandibular"],
+        options:["Nervio Maxilar", "Nervio vidiano", "Arteria meningea media", "Nervio mandibular"],
         answer:"Nervio Maxilar",
         category:1
       },
@@ -203,7 +203,7 @@ const quizdata=[
     },
     {
         question:"¿Qué estructuras anatómicas delimitan la Fosa Craneal Media?",
-        options:["Límite anterior: borde posterior del ala mayor del esfenoides. Límite posterior: apófisis clinoides anteriores y borde superior del peñasco.", "Límite anterior: borde posterior del frontal Límite posterior: apófisis estiloides y borde superior de la silla turca.", "Límite anterior: borde posterior del ala menor del esfenoides Límite posterior: apófisis clinoides posteriores, borde superior del peñasco.", "Límite anterior: borde posterior del ala menor del esfenoides. Límite posterior: apó�sis clinoides anteriores y borde inferior del peñasco."],
+        options:["Límite anterior: borde posterior del ala mayor del esfenoides. Límite posterior: apófisis clinoides anteriores y borde superior del peñasco.", "Límite anterior: borde posterior del frontal Límite posterior: apófisis estiloides y borde superior de la silla turca.", "Límite anterior: borde posterior del ala menor del esfenoides. Límite posterior: apófisis clinoides posteriores, borde superior del peñasco.", "Límite anterior: borde posterior del ala menor del esfenoides. Límite posterior: apófisis clinoides anteriores y borde inferior del peñasco."],
         answer:"Límite anterior: borde posterior del ala menor del esfenoides. Límite posterior: apófisis clinoides posteriores, borde superior del peñasco.",
         category:1
       },
@@ -215,14 +215,14 @@ const quizdata=[
       },
     {
       question:"¿Cómo se clasifica la articulación sacroilíaca?",
-      options:["Artrodia", "Diartroanfiatrosis", "Enartrosis", "Sutura"],
+      options:["Artrodia", "Diartroanfiartrosis", "Enartrosis", "Sutura"],
       answer:"Diartroanfiartrosis",
       category:1
     },
     {
         question:"Sólo una de las siguientes afirmaciones es correcta en relación al hueso fémur.",
         options:["La cabeza forma con la diáfisis un ángulo de aproximadamente 130º.", "La cabeza forma con la diáfisis un ángulo de aproximadamente 45º.", "Ambos cóndilos están a la misma altura.", "El hueso no posee canal medular."],
-        answer:"La cabeza forma con la diá�sis un ángulo de aproximadamente 130º.",
+        answer:"La cabeza forma con la diáfisis un ángulo de aproximadamente 130º.",
         category:1
       },
     {
