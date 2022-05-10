@@ -648,6 +648,9 @@ progress::-webkit-progress-value {
   border: 0;
 }
 
+.counter{
+ display: none
+}
 .hidden {
   display: none;
 }
