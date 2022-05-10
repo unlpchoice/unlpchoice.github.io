@@ -48,7 +48,7 @@ const quizdata=[
 {
     question:"¿Que tipo de articulación tenemos entre las falanges?",
     options:["Trocoide.", "Artrodia.", "Troclear.", "Encaje reciproco."],
-    answer:"Troclear",
+    answer:"Troclear.",
     category:1
   },
   {
